@@ -1,0 +1,9 @@
+<div *ngIf="weather">
+  <p>
+    <img src="https://openweathermap.org/img/wn/{{ weather.icon }}@4x.png" />
+  </p>
+  <p>{{ weather.temperature }}</p>
+  <p>{{ weather.temperatureMin }}</p>
+  <p>{{ weather.temperatureMax }}</p>
+  <p>{{ weather.description }}</p>
+</div>
